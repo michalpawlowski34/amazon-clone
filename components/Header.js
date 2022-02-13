@@ -12,7 +12,7 @@ function Header() {
     const items = useSelector(selectItems);
 
     return (
-        <header>
+        <header className="">
 
             {/* top bar */}
             <div className="flex items-center p-1 py-2 flex-grow bg-amazon_blue">
